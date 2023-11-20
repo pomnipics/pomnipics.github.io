@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-container {
+    position: relative;
+    margin: 10px;
+}
+
+.image-container img {
+    width: 300px; /* Adjust as needed */
+    height: auto;
+    border: 5px solid #ddd;
+    border-radius: 5px;
+}
+
+.image-container h1 {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+    padding: 5px;
+    border-radius: 5px;
+}
